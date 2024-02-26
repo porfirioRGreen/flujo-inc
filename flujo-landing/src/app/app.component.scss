@@ -1,0 +1,60 @@
+.first-section-color {
+  background: linear-gradient(0deg, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
+  padding-top: 70px;
+}
+
+.banner-section {
+  height: 63px;
+  display: flex;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+}
+
+.title-section {
+  color: #305677;
+  padding-left: 25vh;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 53px;
+  letter-spacing: -0.75px;
+}
+
+.banner-text {
+  color: #305677;
+  width: 65%;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+}
+
+.img-section {
+  display: flex;
+  padding-top: 75px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+button.button-section {
+  color: #ffff !important;
+  background-color: #137dc4 !important;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-success:hover {
+  background-color: #0e5a91 !important;
+}
+
+.btn.btn-success {
+  background-color: #137dc4 !important;
+}
+
+.btn.btn-success:active:not(.btn-active), .btn.btn-success:focus:not(.btn-active) {
+  background-color: #305677 !important;
+}
