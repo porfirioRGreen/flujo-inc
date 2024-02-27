@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
+import { ImagesGridComponent } from './images-grid/images-grid.component';
 
 @NgModule({
   declarations: [
@@ -11,8 +13,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ImagesGridComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
