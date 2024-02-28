@@ -1,6 +1,5 @@
 .first-section-color {
   background: linear-gradient(0deg, rgba(196,196,196,1) 0%, rgba(255,255,255,1) 100%);
-  padding-top: 70px;
 }
 
 .banner-section {
@@ -25,11 +24,11 @@
 
 .banner-text {
   color: #305677;
-  width: 65%;
-  font-size: 17px;
+  width: 50%;
+  font-size: 22px;
   font-style: normal;
   font-weight: 300;
-  line-height: 21px;
+  line-height: 23px;
   letter-spacing: -0.3px;
 }
 
@@ -152,7 +151,6 @@ p {
   margin: 0 !important;
 }
 
-// .banner-logo {
-//   width: 200px;
-//   height: 268px;
-// }
+.banner-logo {
+  width: 50%;
+}
