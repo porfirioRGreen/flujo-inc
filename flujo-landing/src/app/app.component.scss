@@ -265,6 +265,11 @@ p {
 @media (min-width: 992px) and (max-width: 1399px) {
   #logo {
     width: 30% !important;
+    margin-bottom: 3rem;
+  }
+  .banner-img-section {
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -272,5 +277,12 @@ p {
   #logo {
     width: 30%;
     margin-bottom: 3rem;
+  }
+  p {
+    width: 0;
+  }
+  .padding-1 {
+    padding-left: 100px;
+    padding-bottom: 0;
   }
 }
