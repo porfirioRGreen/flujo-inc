@@ -1,13 +1,11 @@
 <section class="first-section-color" id="home">
   <div class="banner-section">
     <div class="col span-6">
-      <h3 class="title-section"><b>Software</b> de contabilidad <br> para propietarios</h3>
+      <img alt="Img" src="../assets/media/logo/logo-flujo.png" class="banner-logo" title="Flujo INC"/>
     </div>
     <div>
       <h2 class="banner-text">Este Software está diseñado para que lleves tu contabilidad de forma más segura y rápida.
       </h2>
-      <button class="btn btn-success button-section active" type="button" [routerLink]="['/auth']">¡Empezar
-        ahora!</button>
     </div>
   </div>
   <div class="img-section">
@@ -107,7 +105,7 @@
           </label>
           <div class="mb-3">
             <select
-              class="form-select form-select-lg"
+              class="form-select"
               name="property"
               id="property"
               [ngClass]="{'is-invalid': formGroup.controls.property.errors && formGroup.controls.property.touched}"
