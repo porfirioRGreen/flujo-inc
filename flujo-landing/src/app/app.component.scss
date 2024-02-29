@@ -277,6 +277,7 @@ p {
   #logo {
     width: 30%;
     margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   p {
     width: 0;
@@ -284,5 +285,10 @@ p {
   .padding-1 {
     padding-left: 100px;
     padding-bottom: 0;
+  }
+  .banner-img-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
   }
 }
